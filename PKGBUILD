@@ -7,7 +7,9 @@ arch=("x86_64" "i686")
 url="http://www.isc.ro"
 license=("unknown")
 depends=("java-runtime")
-source=("http://www.isc.ro/linux/WordBiz18linux.zip" "wordbiz" "wordbiz.desktop")
+source=("http://www.isc.ro/linux/WordBiz18linux.zip" 
+        "https://raw.githubusercontent.com/colinkeenan/archpkg-${pkgname}/v${pkgver}/wordbiz" 
+	"https://raw.githubusercontent.com/colinkeenan/archpkg-${pkgname}/v${pkgver}/wordbiz.desktop")
 md5sums=('dd3c078f758196606e21430ac248b8d5'
          '21544a9059d8d55dbdb24511fac98644'
          '5b868fccffb9d25671bdd4d0175e9ea9')
